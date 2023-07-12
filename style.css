@@ -1,0 +1,38 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50%;
+    min-height: 360px;
+    width: 50%;
+}
+
+.container1 {
+    background-color: rgb(237, 183, 56);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+button {
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 0.25rem;
+}
+
+.plus {
+    width: 5.8rem;
+}
+
+.clear,
+.equals {
+    width: 5.8rem;
+}
+
+input {
+    width: 11.8rem;
+    border-radius: 0.25rem;
+
+    background-color: lightgray;
+}
